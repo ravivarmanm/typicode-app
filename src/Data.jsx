@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const baseUrl = require("./Data.json");
+const baseUrl = require("https://jsonplaceholder.typicode.com/posts");
 console.log(baseUrl);
 const Data = () => {
   const [data, setData] = useState({});
